@@ -1,2 +1,22 @@
-// 测试变量
-$test: #3489ff;
+// 字体颜色
+$c-text: #213547;
+// 字体颜色（禁用）
+$c-text-disabled: #a8abb2;
+// 字体颜色（激活）
+$c-text-active: #409eff;
+// 分割线
+$c-divider-light: rgba(60, 60, 60, 0.12);
+// 鼠标经过按钮背景
+$c-hover-bg: rgb(204, 204, 204, 0.4);
+
+// 圆角-large
+$s-border-radius-l: 25px;
+// 圆角-medium
+$s-border-radius-m: 16px;
+// 圆角-small
+$s-border-radius-s: 6px;
+
+// 顶栏高度
+$layout-header: 55px;
+// 侧边栏宽度
+$layout-aside: 240px;

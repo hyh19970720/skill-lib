@@ -25,3 +25,4 @@ coverage
 *.sw?
 
 # Others
+package-lock.json

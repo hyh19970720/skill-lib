@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  &:focus-visible {
+    outline: none;
+  }
+  &::-webkit-scrollbar {
+    width: 8px;
+    &-thumb {
+      border-radius: 4px;
+      background-color: rgb(168, 168, 168, 0.5);
+      &:hover {
+        background-color: rgb(168, 168, 168, 1);
+      }
+    }
+  }
+}
+
+body {
+  color: $c-text;
+}
+
+ol,
+ul {
+  li {
+    list-style: none;
+  }
+}
+
+i {
+  font-style: normal;
+}

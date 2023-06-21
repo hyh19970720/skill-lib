@@ -1,0 +1,18 @@
+// 原理解析描述文字
+.principle-text {
+  font-size: 18px;
+  line-height: 26px;
+  white-space: unset;
+  word-wrap: break-word;
+  p {
+    padding-bottom: 10px;
+  }
+  i {
+    padding: 2px 4px;
+    margin: 0 2px;
+    color: #26c6da;
+    border-radius: $s-border-radius-s;
+    background-color: rgba(77, 208, 225, 0.1);
+    user-select: all;
+  }
+}

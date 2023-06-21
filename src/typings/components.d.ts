@@ -9,6 +9,20 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    AngleDown: typeof import('./../components/icons/AngleDown.vue')['default']
+    Code: typeof import('./../components/icons/float-badge/Code.vue')['default']
+    CodeBackground: typeof import('./../components/common/CodeBackground.vue')['default']
+    Download: typeof import('./../components/icons/float-badge/Download.vue')['default']
+    DownloadGround: typeof import('./../components/common/DownloadGround.vue')['default']
+    ElDialog: typeof import('element-plus/es')['ElDialog']
+    ElDropdown: typeof import('element-plus/es')['ElDropdown']
+    ElDropdownItem: typeof import('element-plus/es')['ElDropdownItem']
+    ElDropdownMenu: typeof import('element-plus/es')['ElDropdownMenu']
+    ElMenu: typeof import('element-plus/es')['ElMenu']
+    ElMenuItem: typeof import('element-plus/es')['ElMenuItem']
+    FloatBadge: typeof import('./../components/common/FloatBadge.vue')['default']
+    HTMLIcon: typeof import('./../components/icons/HTMLIcon.vue')['default']
+    Principle: typeof import('./../components/icons/float-badge/Principle.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }

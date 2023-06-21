@@ -1,5 +1,6 @@
 import autoImport from 'unplugin-auto-import/vite';
 import component from 'unplugin-vue-components/vite';
+import { ElementPlusResolver } from 'unplugin-vue-components/resolvers';
 import { getPrimaryPath } from '../utils';
 
 /**
@@ -9,7 +10,7 @@ export default () => {
     return [
         autoImport({
             // 自动解析的模块
-            resolvers: [],
+            resolvers: [ElementPlusResolver()],
             // 自动引入的模块
             imports: ['vue', 'vue-router'],
             // 声明文件输出目录
@@ -17,7 +18,7 @@ export default () => {
         }),
         component({
             // 自动解析的模块
-            resolvers: [],
+            resolvers: [ElementPlusResolver()],
             // 声明文件输出目录
             dts: getPrimaryPath() + '/typings/components.d.ts',
         }),
