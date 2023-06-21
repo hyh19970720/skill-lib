@@ -22,6 +22,11 @@ const router = createRouter({
               name: 'FullpageScroll',
               component: () => import('@/views/front-end/FullpageScroll.vue'),
             },
+            {
+              path: 'back-to-top',
+              name: 'BackToTop',
+              component: () => import('@/views/front-end/BackToTop.vue'),
+            },
           ],
         },
         /** ecahrts 相关组件 */

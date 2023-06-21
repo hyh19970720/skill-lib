@@ -1,9 +1,8 @@
 <script lang="ts" setup>
 import { HTMLIcon } from '../icons';
+import { Props } from './test';
 
-defineProps<{
-  html?: string;
-}>();
+defineProps<Props>();
 
 const download = (fileName: string) => {
   let url = `http://localhost:9527/lib/${fileName}`;

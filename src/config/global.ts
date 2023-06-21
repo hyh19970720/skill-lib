@@ -23,6 +23,10 @@ export const asideMenuList = {
       txt: '整页滚动',
       path: 'fullpage-scroll',
     },
+    {
+      txt: '回到顶部',
+      path: 'back-to-top',
+    },
   ],
   Echarts: [
     {

@@ -19,6 +19,7 @@ const dialogConfig = reactive({
   code: {
     visible: false,
     title: '代码实例',
+    width: '75%',
   },
   principle: {
     visible: false,

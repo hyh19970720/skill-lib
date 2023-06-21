@@ -60,7 +60,7 @@ const randomColor = () => {
     <FloatBadge>
       <template #principle>
         <pre class="principle-text">
-        <p>使用CSS提供的<i>scroll-snap-type</i>和<i>scroll-snap-align</i>属性来实现整页滚动。</p>
+        <p>使用CSS提供的<i>scroll-snap-type</i>和<i>scroll-snap-align</i>属性实现整页滚动。</p>
         <p>给父元素添加<i>scroll-snap-type: y mandatory;</i>属性，表示y轴强制整页滚动；给父元素添加<i>scroll-snap-type: x mandatory;</i>属性，表示x轴强制整页滚动。</p>
         <p>同时需要给子元素添加<i>scroll-snap-align</i>属性，来决定子元素整页滚动对齐方向，<i>start</i>代表对齐父元素开始位置，<i>center</i>代表中心对齐，<i>end</i>代表对齐父元素结束位置。</p>
       </pre>
